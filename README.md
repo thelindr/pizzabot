@@ -53,7 +53,7 @@ Update the rest of your bot to work the way it's suppose to.
 ### 5. Hand in assignment
 The `starter-code` contains an empty javascript file that you will copy your code from codepen into. 
 
-To complete this assignment, you need to fork this repository, paste your code into, and then submit a pull request on GitHub (from your repository into the technigo one) for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
+To complete this assignment, you need to fork this repository, paste your code into, and then submit a pull request on GitHub (from your repository into the technigo one) for review. Make sure you fork this repo for today's add ons, we want these in a separate hand-in than yesterdays. 
 
 ### :books: Reading List
 
