@@ -16,17 +16,17 @@ Iterate over your `array` and print your menu for the user.
 
 Make sure the pizzas are [sorted](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) in alpabethical order when printed. 
 
-Also, print: ``"Hey! Happy to serve your pizza. On our menu we have X number of pizzas. Menu: 1. PIZZA 80 kr 2....`
+Also, print: `"Hey! Happy to serve your pizza. On our menu we have X number of pizzas. Menu: 1. PIZZA 80 kr 2...."`
 
 ### 2. Objects
 
 Let's give all the pizzas their own price by using objects. 
 
-In your array, create an object for every type of pizza that you have. Each pizza should have a name, a price and a true and false option for it that pizza is dicounted or not. 
+In your `array`, create an `object` for every type of pizza that you have. Each pizza should have a name, a price and a true and false option for it that pizza is dicounted or not. 
 
-Print your menu by using your objects names and price. 
+Print your menu by using your object's names and price. 
 
-Update the function that calculates the total proce to use the objects price instead – so it can handle that the pizzas now have different prices. 
+Update the function that calculates the total price to use the object's price instead – so it can handle that the pizzas now have different prices. 
 
 Update the discount function to use the discount value instead, so every pizza can have a discount, not just Hawaii. 
 
@@ -46,7 +46,9 @@ Make a method in your class that calculates the price by using the discount attr
 
 You can now skip your discount function from before since your class is doing this for us. 
 
-Re-implement your summary function to use the price attribute and to take into account if the pizza have a discount or not.  
+Re-implement your summary function to use the price attribute and to take into account if the pizza have a discount or not.
+
+Update the rest of your bot to work the way it's suppose to. 
 
 ### 5. Hand in assignment
 The `starter-code` contains an empty javascript file that you will copy your code from codepen into. 
@@ -55,9 +57,10 @@ To complete this assignment, you need to fork this repository, paste your code i
 
 ### :books: Reading List
 
-* [MDN – Javascript Grammar and Type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types)
-* [MDN – Control flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
-* [w3 Schools String methods](https://www.w3schools.com/js/js_string_methods.asp)
+* [w3 Schools – Arrays](https://www.w3schools.com/js/js_arrays.asp)
+* [w3 Schools - Array methods](https://www.w3schools.com/js/js_array_methods.asp)
+* [MDN – Javascript Objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
+* [MDN – Javascript Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 ---
 
@@ -75,13 +78,13 @@ After completing this assignment your should be confortable using:
 
 Done with the main task? Here's some ideas for things to continue with:
 
-1. Go to the Wikipedia Article about [Hawaiian Pizza](https://en.wikipedia.org/wiki/Hawaiian_pizza) and:
+1. Add an average rating attribute to your pizza objects. After the order is finished, ask the user how she/he would rate the pizza from 1-5. Update the rating attribute with the new average after each user. Tip: Add a new method in the class that calculates the average. 
 
-* Copy the first three paragraphs. Store the text in a String
-* Make your program count the number of words in the string
-* Make your program count the number of times the latin word etappears
+Print the rating in the menu. 
 
-2. Instead of having your pizzabot live in the console make a form in HTML for the input from the user, pizza type and number of pizzas. Then make your program print it's response in HTML instead. Start by making it work in codepen and then move it into real `html` and `js` files.
+2. After finished your readings, when do you think it's suitable to use objects instead of classes and vice versa? 
+
+3. Instead of having your pizzabot live in the console make a form in HTML for the input from the user, pizza type and number of pizzas. Then make your program print it's response in HTML instead. Start by making it work in codepen and then move it into real `html` and `js` files.
 
 A combination of these two examples will help you on the way: [Forms submissions with Javascript](https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_submit) and [Get Element by ID](https://www.w3schools.com/js/exercise.asp?filename=exercise_arrays4). 
 `
