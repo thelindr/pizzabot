@@ -20,18 +20,17 @@ Also, summarize how many pizzas you have and print: `"Hey! Happy to serve your p
 
 ### 2. Objects
 
-Let's give all pizzas their own price. 
-In your `array`, create an `object` for every type of pizza that you have. Each pizza should have a name, a price and a true and false option for if that pizza is dicounted or not. 
+Let's give all pizzas their own price. In your `array`, create an `object` for every type of pizza that you have. Each pizza should have a name, a price and a true and false option for if that pizza is dicounted or not. 
 
 Print your menu by using your object's names and price. 
 
 Update the function that calculates the total price to use the object's price instead – so it can handle that the pizzas now have different prices. 
 
-Update the discount function to use the discount value instead, so every pizza can have a discount, not just Hawaii. 
+Update the discount function to use the discount value instead to check if the pizza are discounted or not, so every pizza can have a discount, not just Hawaii. 
 
 ### 3. Classes
 
-Let's do the same thing but with classes instead. 
+Let's try and do the same thing but with classes. 
 
 Create a pizza class where the name, price and discount are attributes. 
 
@@ -41,13 +40,13 @@ Re-implement your menu using your new class and instances.
 
 Change your discount attribute to be a integer instead of a booleen, so different pizzas can have different discount rates. 
 
-Make a method in your class that calculates the price by using the discount attribute, So every pizza knows their own price. 
+Make a method in your class that calculates the price by using the discount attribute, so every pizza keeps track of their own price. 
 
 You can now skip your discount function from before since your class is doing this for us. 
 
-Re-implement your summary function to use the price attribute and to take into account if the pizza have a discount or not.
+Re-implement your summary function to use the price attribute in your class and to take into account if the pizza have a discount or not.
 
-Update the rest of your bot to work the way it's suppose to. 
+Update the rest of your bot to make sure it works the way it was intended to. 
 
 ### 5. Hand in assignment
 The `starter-code` contains an empty javascript file that you will copy your code from codepen into. 
