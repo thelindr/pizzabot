@@ -8,21 +8,20 @@ You can start by programming this in codepen and then copy paste the code in a `
 
 ### 1. Practice Arrays
 
-Start by copy all the code you did yesterday into codepen. The bot should function the same way as yesterday, with the changes:  
+Start by copy all the code you did yesterday into codepen. The main functionality should be the same as yesterday so make sure it stille works when you update the code with new functionality. 
 
-Instead of having all of your pizzas in variables, add them to an `array`. 
+Instead of storing all of your pizza names in variables, add them to an `array`.  
 
 Iterate over your `array` and print your menu for the user.  
 
-Make sure the pizzas are [sorted](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) in alpabethical order when printed. 
+[Sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) your pizzas in alpabetical order when you print them. 
 
-Also, print: `"Hey! Happy to serve your pizza. On our menu we have X number of pizzas. Menu: 1. PIZZA 80 kr 2...."`
+Also, summarize how many pizzas you have and print: `"Hey! Happy to serve your pizza. On our menu we have X number of pizzas. Menu: 1. Hawaii 80 kr 2. Vegatariana 80 kr...."`
 
 ### 2. Objects
 
-Let's give all the pizzas their own price by using objects. 
-
-In your `array`, create an `object` for every type of pizza that you have. Each pizza should have a name, a price and a true and false option for it that pizza is dicounted or not. 
+Let's give all pizzas their own price. 
+In your `array`, create an `object` for every type of pizza that you have. Each pizza should have a name, a price and a true and false option for if that pizza is dicounted or not. 
 
 Print your menu by using your object's names and price. 
 
