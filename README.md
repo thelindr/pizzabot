@@ -20,31 +20,24 @@ Also, summarize how many pizzas you have and print: `"Hey! Happy to serve your p
 
 ### 2. Objects
 
-Let's give all pizzas their own price. In your array, create an object for every type of pizza that you have. Each pizza object should have a name, a price and a true and false option for if that pizza is discounted or not.
+Lets change the pizza variables from just being strings to being an object which can group information about that pizza. Each object should have the following keys:
 
-After the pineapple shortage from yesterday, management has decided to raise prices of other ingredients. Update your objects so that the "Vegetarian" pizza costs 95:-, the "Hawaiian" costs 75:- and the "Pepperoni" costs 90:-.
+* name (string)
+* price (integer)
+
+Update your objects so that the "Vegetarian" pizza costs 95:-, the "Hawaiian" costs 75:- and the "Pepperoni" costs 90:-.
 
 Print your menu by using your pizza object's names and prices.
 
 Update the function that calculates the total price to use the object's price instead – so it can handle that the pizzas now have different prices.
 
-Update the discount function to use the discount value from the pizza object instead, to check if the pizza are discounted or not, so every pizza can have a discount, not just Hawaiian.
-
 ### 3. Classes
 
-Let's try and do the same thing but with classes.
-
-Create a Pizza class where the name, price and discount are attributes. The class should have a constructor which sets those attributes.
+Let's try and do the same thing but with classes. Create a `Pizza` class with attributes for `name` and `price`. The class should have a constructor which sets those attributes.
 
 Convert your pizza array to use instances of your pizza class instead of objects.
 
 Re-implement your menu using your new class and instances.
-
-Make a method called `totalPrice()` in your class that calculates the price by using the discount value, so every pizza keeps track of their own price after discount.
-
-You can now skip your discount function from before since your class is doing this for us.
-
-Re-implement your summary function to use the price attribute in your class and to take into account if the pizza have a discount or not.
 
 Update the rest of your bot to make sure it works the way it was intended to.
 
