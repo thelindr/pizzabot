@@ -47,10 +47,10 @@ As always, when you're done, submit a pull request on GitHub (from your reposito
 
 ### :books: Reading List
 
-* [w3 Schools – Arrays](https://www.w3schools.com/js/js_arrays.asp)
-* [w3 Schools - Array methods](https://www.w3schools.com/js/js_array_methods.asp)
-* [MDN – Javascript Objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
-* [MDN – Javascript Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+* [MDN - Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+* [MDN - Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [MDN – Objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
+* [MDN – Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 ---
 
