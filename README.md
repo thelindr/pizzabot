@@ -31,16 +31,6 @@ Print your menu by using your pizza object's names and prices.
 
 Update the function that calculates the total price to use the object's price instead – so it can handle that the pizzas now have different prices.
 
-### 3. Classes
-
-Let's try and do the same thing but with classes. Create a `Pizza` class with attributes for `name` and `price`. The class should have a constructor which sets those attributes.
-
-Convert your pizza array to use instances of your pizza class instead of objects.
-
-Re-implement your menu using your new class and instances.
-
-Update the rest of your bot to make sure it works the way it was intended to.
-
 ### 5. Hand in assignment
 
 As always, when you're done, submit a pull request on GitHub (from your repository into the technigo one) for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
@@ -50,7 +40,6 @@ As always, when you're done, submit a pull request on GitHub (from your reposito
 * [MDN - Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 * [MDN - Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 * [MDN – Objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
-* [MDN – Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 ---
 
@@ -71,7 +60,6 @@ After completing this assignment your should be comfortable using:
 * Arrays in Javascript
 * Array methods Javascript
 * Objects in Javascript
-* Classes and class attributes in Javascript
 
 ---
 
@@ -79,11 +67,9 @@ After completing this assignment your should be comfortable using:
 
 Done with the main task? Here's some ideas for things to continue with:
 
-1. Add an average rating attribute to your pizza objects. After the order is finished, ask the user how she/he would rate the pizza from 1-5. Update the rating attribute with the new average after each user. Tip: Add a new method in the class that calculates the average.
+1. Add an average rating attribute to your pizza objects. After the order is finished, ask the user how she/he would rate the pizza from 1-5. Update the rating attribute with the new average after each user.
 
-Print the rating in the menu.
-
-2. After finished your readings, when do you think it's suitable to use objects instead of classes and vice versa?
+Print the rating in the menu which you built from the array of objects.
 
 3. Instead of having your pizzabot live in the console make a form in HTML for the input from the user, pizza type and number of pizzas. Then make your program print it's response in HTML instead.
 
